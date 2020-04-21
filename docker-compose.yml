@@ -7,5 +7,6 @@ services:
       context: .
     command: >
       sh -c "ansible --version &&
-               ansible-galaxy --version
-              "
+             ansible-galaxy --version &&
+             git --version
+            "
