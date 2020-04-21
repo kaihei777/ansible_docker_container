@@ -7,3 +7,6 @@ RUN apk -qU add git=2.24.3-r0
 
 RUN pip3 install -U pip==20.0.2
 RUN pip3 install -U pymysql==0.9.3
+
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
