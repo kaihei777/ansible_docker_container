@@ -8,5 +8,6 @@ services:
     command: >
       sh -c "ansible --version &&
              ansible-galaxy --version &&
-             git --version
+             git --version &&
+             python --version
             "
