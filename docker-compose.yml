@@ -9,5 +9,7 @@ services:
       sh -c "ansible --version &&
              ansible-galaxy --version &&
              git --version &&
-             python --version
+             python --version &&
+             node -v &&
+             npm -v
             "
