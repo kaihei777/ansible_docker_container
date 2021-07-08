@@ -2,7 +2,7 @@ version: '3'
 services:
   build:
     container_name: ansible_docker_container
-    image: kaihei777/ansible_docker_container:2.10
+    image: kaihei777/ansible_docker_container:latest
     build:
       context: .
     command: >
